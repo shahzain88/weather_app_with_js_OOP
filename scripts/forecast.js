@@ -1,9 +1,9 @@
 
 class Forcast {
     constructor() {
-        this.apiKey = 'QdR24dN7TyxBg3GtAkAbFylGm0ynMGj';
-        this.weatherURL = 'http://dataservice.accuweather.com/currentconditions/v1/';
-        this.cityURL = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+        this.apiKey = 'GThYagVKJM6N3BznG2PGcUOjRsMRdifR';
+        this.weatherURL = 'https://dataservice.accuweather.com/currentconditions/v1/';
+        this.cityURL = 'https://dataservice.accuweather.com/locations/v1/cities/search';
     };
     updateCity = async city => {
 
